@@ -1,0 +1,32 @@
+body {
+}
+
+.header {
+  background-color: lightcyan;
+  height: 30px;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+.content {
+  height: 60vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 12%;
+  text-align: center;
+  background-image: url(./assets/pexels-pok-rie-1655166.jpg);
+}
+
+.footer {
+  display: inline-flex;
+}
+
+.ftr-cards {
+  width: 30%;
+}

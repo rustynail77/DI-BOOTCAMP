@@ -1,0 +1,58 @@
+.bold {
+  font-weight: bold;
+}
+
+.marked {
+  background-color: yellow;
+}
+
+.roman-list {
+  list-style-type: upper-roman;
+}
+
+.indented-list {
+  margin-left: 3%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-red-header {
+  color: red;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.img-ctrl {
+  margin-top: 5%;
+  width: 30vw;
+  display: block;
+  border: orange solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-area {
+  width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.tb-border {
+  border: 1px solid black;
+}
+
+.tb-line {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

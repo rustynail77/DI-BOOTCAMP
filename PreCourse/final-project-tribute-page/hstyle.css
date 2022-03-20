@@ -1,0 +1,102 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,
+h6 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+header {
+  width: 100vw;
+}
+
+.navbar {
+  width: 100vw;
+  height: 60px;
+  /* list-style: none; */
+  display: inline-flex;
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+  /* margin-top: 10px; */
+  /* overflow: hidden; */
+  padding-left: 20%;
+}
+
+.navbar a {
+  color: black;
+  padding: 1%;
+  margin-right: 1%;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  /* float: left; */
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  transform: translateY(3px);
+  border: black solid 1px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 0, 0.6);
+  color: red;
+}
+
+.subnav {
+  display: none;
+}
+
+.subnav a {
+  height: 30px;
+}
+
+.subnav-content {
+  /* display: block; */
+  background-color: white;
+  margin-top: 30px;
+  position: absolute;
+  /* left: 50%; */
+  /* display: none; */
+  /* width: 10%; */
+  z-index: 10;
+  color: black;
+}
+
+.subnav-content a {
+  font-size: 12px;
+}
+
+#home-sub:hover .subnav {
+  display: block;
+}
+
+.index-body {
+  background-image: url("./assets/1202317a.jpg");
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-titles {
+  background-color: yellow;
+  opacity: 0.7;
+  width: 30%;
+  text-align: center;
+  padding: 1%;
+  border-radius: 20px;
+  border: double black 5px;
+  margin-left: 50%;
+}
+
+.main-titles:hover {
+  transform: scale(1.05);
+}

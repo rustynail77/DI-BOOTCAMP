@@ -1,0 +1,39 @@
+* {
+  font-family: "Abril Fatface", cursive;
+  /* font-family: 'Varela Round', sans-serif; */
+}
+
+nav {
+}
+
+nav > ul {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+#top-photo > img {
+  width: 100vw;
+}
+
+#about-photo {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.about-text {
+  border-left: 3px solid gray;
+}
+
+.portfolio-box {
+  /* display: inline-flex;
+  max-width: 100vw; */
+}
+
+.portfolio-box > div {
+  /* flex: 30%; */
+}

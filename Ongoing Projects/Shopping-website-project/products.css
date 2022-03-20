@@ -1,0 +1,57 @@
+* {
+  font-family: "Varela Round", sans-serif;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: #6b9e7e;
+  font-size: 2em;
+}
+
+.b-a {
+  border: 2px solid black;
+}
+
+.product {
+  margin: 20px 10px 0 10px;
+  background-color: #6b9e7e;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px;
+  width: 250px;
+  box-shadow: inset 0 0 100px black;
+}
+
+.product > img {
+  width: 250px;
+}
+
+.product > h3 {
+  font-size: 22px;
+}
+
+.prev-price {
+  color: rgb(168, 168, 168);
+  text-decoration: line-through;
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+
+#products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.add-to-cart-btn {
+  background-color: #e1f7e3;
+  color: #6b9e7e;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
