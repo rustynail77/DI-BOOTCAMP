@@ -134,7 +134,8 @@ let names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
 // Console.log the name of their secret society. The output should be “ABJKPS”
 names.sort();
 let secret="";
-for (let member in names) {
-    secret += names[member][0];
+// in an array - you use "for..of" loop (while in an object you'd use "for..in")
+for (let member of names) {
+    secret += member[0];
 }
 console.log(secret);
