@@ -14,12 +14,16 @@ function printWord(word, maxLen) {
     console.log(`* ${word}${" ".repeat(addSpace)} *`);
 }
 
+function createLine(longest) {
+    console.log("*".repeat(longest+4));
+}
+
 let input = prompt("enter a few words separated by commas> ");
 let words = input.split(",");
 let longest = getLongest(words);
 
-console.log("*".repeat(longest+4));
+createLine(longest);
 for (word of words) {
     printWord(word, longest);
 }
-console.log("*".repeat(longest+4));
+createLine(longest);
