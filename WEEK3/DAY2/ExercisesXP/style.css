@@ -1,0 +1,16 @@
+.fade-out-parag:hover {
+  animation: fadeOut 3s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+button {
+  margin-bottom: 50px;
+}
