@@ -5,7 +5,10 @@ let myForm = document.forms["myForm"];
 myForm.addEventListener('submit',(e)=>{
     e.preventDefault();
     const myFormData = new FormData(e.target);
-    const data = {};
-    myFormData.forEach((value,key)=>(data[key]=value));
-    console.log(data);
+    const value = Object.fromEntries(myFormData.entries());
+    const toJson = JSON.stringify(value,null,2);
+    console.log(toJson);
+    // const data = {};
+    // myFormData.forEach((value,key)=>(data[key]=value));
+    // console.log(data);
 });
