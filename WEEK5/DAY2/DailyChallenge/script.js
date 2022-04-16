@@ -14,7 +14,7 @@ function addMyGif(gifUrl){
 }
 
 function makeRequest(query) {
-	let myApi = `https://api.giphy.com/v1/gifs/search?q=${query}&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`;
+	let myApi = `https://api.giphy.com/v1/gifs/random?tag=${query}&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`;
     xhr = new XMLHttpRequest();
 	xhr.open("GET", myApi);
     xhr.responseType = "json";
@@ -24,8 +24,7 @@ function makeRequest(query) {
 	xhr.onload = function () {
 	    if (xhr.status === 200) {
 			result = xhr.response.data;
-            let randNum = Math.floor(Math.random() * 50);
-            let myGif = result[randNum].images.original.url;
+            let myGif = result.images.original.url;
             addMyGif(myGif);
 		} else {
 			console.log("ERROR FROM THE STATUS")
