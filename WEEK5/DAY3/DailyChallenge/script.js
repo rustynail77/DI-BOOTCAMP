@@ -65,11 +65,6 @@ function toJs() {
     return toJsPromise;
 }
 
-toJs()
-    .then(result => toMorse(result))
-    .then(result=>joinWords(result))
-    .catch(err => console.log(err))
-
 // 3. The second function called toMorse(morseJS), takes one argument: the new morse javascript object.
 // This function asks the user for a word or a sentence.
 // if the user entered a character that doesn’t exist in the new morse javascript object, throw an error. (use reject)
@@ -100,3 +95,7 @@ function joinWords(morseTranslation) {
 }
 
 // 5. Chain the three functions.
+toJs()
+    .then(result => toMorse(result))
+    .then(result=>joinWords(result))
+    .catch(err => console.log(err))

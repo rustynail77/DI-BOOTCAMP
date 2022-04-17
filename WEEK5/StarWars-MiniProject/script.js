@@ -28,7 +28,6 @@ async function displayChar () {
         document.querySelector('#charName').innerHTML = '';
         document.querySelector('#textContent').innerHTML = '';
     
-        // console.log(charData, homeWorld);
         document.querySelector('#charName').appendChild(document.createTextNode(charData["name"]));
     
         let myKeys = ['height','gender','birth_year','homeworld']; 
