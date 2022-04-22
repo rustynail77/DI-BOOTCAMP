@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Square+Peg&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm">
+        
+        <label for="fromAirport">Departure airport:</label>
+        <input type="text" id="fromAirport" name="fromAirport" value="TLV">
+        <label for="toAirport">Arrival airport:</label>
+        <input type="text" id="toAirport" name="toAirport" value="BUD">
+        
+        <label for="from">Departure date:</label>
+        <input type="date" id="from" name="from" placeholder="from">
+        <label for="to">Return date:</label>
+        <input type="date" id="to" name="to" placeholder="to">
+        <br>
+        <input type="number" id="maxBudget" name="maxBudget" placeholder="Max Budget (Euros)">
+        <input type="number" id="tripLength" name="tripLength" placeholder="trip length (days)">
+        <button type="submit" id="myButt" name="myButt">Fetch info</button>
+    </form>
+
+    <container id="info">
+        <div class="loading dontShow">
+            <img src='./assets/waiting-icon-gif-1.jpg'>
+            <p>Loading...</p>
+        </div>
+        
+    </container>
+
+    <script type="text/javascript" src="./script1.js"></script>
+</body>
+</html>
