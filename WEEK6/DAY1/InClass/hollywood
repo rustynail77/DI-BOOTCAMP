@@ -1,0 +1,14 @@
+-- Database: Hollywood
+
+-- DROP DATABASE IF EXISTS "Hollywood";
+
+-- CREATE DATABASE "Hollywood"
+--     WITH 
+--     OWNER = postgres
+--     ENCODING = 'UTF8'
+--     LC_COLLATE = 'Hebrew_Israel.1255'
+--     LC_CTYPE = 'Hebrew_Israel.1255'
+--     TABLESPACE = pg_default
+--     CONNECTION LIMIT = -1;
+
+SELECT * FROM actors;

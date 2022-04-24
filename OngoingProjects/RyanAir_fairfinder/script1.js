@@ -117,12 +117,13 @@ async function mainClick (event) {
     let d2 = (data[3]=='') ? addDays(new Date(),30) : new Date(data[3]);
     let d3 = (data[4]=='') ? defaultFare : Number(data[4]);
     let d4 = (data[5]=='') ? defaultTripLength : Number(data[5]);
+    
     console.log(data[0],data[1],d1,d2,d3,d4);
     const dateDiff = Math.floor((d2 - d1) / _MS_PER_DAY);
     if (dateDiff < Number(data[5])) {
         alert("Trip too long for dates range!")
     } else if (dateDiff > 0) {
-        let myResults = await getFare(data[0], data[1], d3, d4, d1, dateDiff) 
+        let myResults = await getFare(data[0], data[1], d3, d4, d1, dateDiff);
         displayResults(myResults);
     } else {
         alert('Error. Dates miscalculation!');
