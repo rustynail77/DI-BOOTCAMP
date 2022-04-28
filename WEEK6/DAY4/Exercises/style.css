@@ -1,0 +1,14 @@
+body {
+    display: block;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+.item {
+    margin: 5%;
+    align-self: center;
+    text-align: center;
+}

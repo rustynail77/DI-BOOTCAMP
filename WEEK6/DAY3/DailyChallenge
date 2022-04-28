@@ -82,9 +82,10 @@ INSERT INTO student (name, age) VALUES
 -- borrowed_date
 -- This table, is a junction table for a Many to Many relationship with the Book and Student tables : A student can borrow many books, and a book can be borrowed by many children
 CREATE TABLE library (
-	book_id INTEGER REFERENCES book(id) ON DELETE CASCADE ON UPDATE CASCADE,
-	student_id INTEGER REFERENCES student(id) ON DELETE CASCADE ON UPDATE CASCADE,
-	borrowed_date DATE
+	book_id INTEGER NOT NULL REFERENCES book(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	student_id INTEGER NOT NULL REFERENCES student(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	borrowed_date DATE,
+	PRIMARY KEY(book_id,student_id)
 )
 
 -- Add 4 records in the junction table, use subqueries.
@@ -92,7 +93,6 @@ CREATE TABLE library (
 -- the student named Bob, borrowed the book To kill a mockingbird on the 03/03/2021
 -- the student named Lera, borrowed the book Alice in Wonderland on the 23/05/2021
 -- the student named Bob, borrowed the book Harry Potter the on 12/08/2021
-
 INSERT INTO library (book_id,student_id,borrowed_date) VALUES
 ((SELECT id FROM book WHERE title ILIKE 'Alice in Wonderland'), (SELECT id FROM student WHERE name='John'), '15/02/2022'),
 ((SELECT id FROM book WHERE title ILIKE 'To kill a mockingbird'),(SELECT id FROM student WHERE name='Bob'), '03/03/2021'),
@@ -112,7 +112,7 @@ JOIN book ON library.book_id=book.id
 SELECT ROUND(AVG(age),1) FROM student 
 JOIN library ON student.id=library.student_id
 JOIN book ON library.book_id=book.id
-WHERE book.title ILIKE 'Alice in Wonderland';
+WHERE book.title ILIKE '%Alice in Wonderland%';
 
 -- Delete a student from the Student table, what happened in the junction table ? ANSWER: It deleted the record from library table as well due to DELETE CASCADE constraint
 DELETE FROM student WHERE id=1;
