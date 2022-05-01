@@ -1,0 +1,71 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    text-align: center;
+    line-height: 2;
+    background-color:bisque;
+}
+
+#top-bar {
+    background-color:black;
+    text-align: center;
+    margin: 0;
+    padding: 1vh;
+}
+
+h1 {   
+    color:aliceblue;
+    background-color:black;
+    text-align: center;
+}
+
+h2 {
+    margin: 0.1em 0;
+}
+
+button {
+    font-size: 0.6em;  
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content:center;
+}
+
+.item {
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid gray;
+    margin: 1%;
+    padding: 2%;
+    background-color:red;
+    text-align: center;
+    border-radius: 15px;
+    width: 20vw;
+    overflow-wrap: break-word;
+}
+
+.item > div {
+    border-bottom: solid 1px white;
+}
+
+.checked {
+    background-color: green;
+    color: white;
+}
+
+.hideDesc {
+    display: none;
+}
+
+.expiredTask {
+    background-color: gray;
+}
+
+.desc {
+    font-size: 0.8em;
+    font-weight: normal;
+}
