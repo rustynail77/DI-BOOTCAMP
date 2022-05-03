@@ -27,7 +27,8 @@ app.get('/form',(req, res) => {
 })
 
 app.post('/formData',(req, res) => {
-    // we need to get the information from our form data
+    // we need to get the information from our form data, 
+    // so we'll use the req.body:
     const {email, message} = req.body;
     res.send(`${email} sent you a message, saying: ${message}`)
 })
