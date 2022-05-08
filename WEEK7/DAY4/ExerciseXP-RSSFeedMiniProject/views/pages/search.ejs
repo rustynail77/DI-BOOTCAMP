@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../partials/head'); %>
+    <title>Document</title>
+</head>
+<body>   
+    <%- include('../partials/header'); %>
+    
+    Search by title: <input type="text" name="title" id="title">
+    <button onclick="searchTitle()">Search</button>
+    <br><br>
+    Search by category: <input type="text" name="category" id="category">
+    <button onclick="searchCategory()">Search</button>
+    <br>
+    <%- include('../partials/posts',{items:data}); %>
+    <br>
+    <%- include('../partials/footer'); %>
+    <script type="text/javascript" src="../pages/script.js"></script>
+</body>
+</html>
+

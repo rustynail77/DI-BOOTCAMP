@@ -1,0 +1,7 @@
+<div>
+    <% if (items) items.forEach(item=>{ %>
+        <div><a href='<%=item.link%>'><%=item.title%></a>
+        | <%=item.pubDate%> | <%=item.creator%> | <%=item.categories%>
+        </div>
+    <% }); %>
+</div>

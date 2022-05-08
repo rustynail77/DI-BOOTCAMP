@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../partials/head'); %>
+    <title>Document</title>
+</head>
+<body>   
+    <%- include('../partials/header'); %>
+    <form action="/search/title" method="post">
+        Search by title: <input type="text" name="title" id="title">
+        <input type="submit">
+    </form>
+      <br><br>
+    <form action="/search/category" method="post">
+        Search by category: <input type="text" name="category" id="category">
+        <input type="submit">
+    </form>
+    
+    <br>
+    <%- include('../partials/posts',{items:data}); %>
+    <br>
+    <%- include('../partials/footer'); %>
+</body>
+</html>
+
