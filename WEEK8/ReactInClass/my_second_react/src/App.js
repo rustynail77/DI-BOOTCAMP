@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <div>Hi there!</div>
         <Hello />
-        <User />
+        <User name={"Make"} username={"Jake"} email={'em@ail.com'} />
+        <User name={"Flake"} username={"Crake"} email={'ema@aail.com'} />
       </header>
     </div>
   );
