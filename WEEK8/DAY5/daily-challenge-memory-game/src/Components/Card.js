@@ -1,5 +1,4 @@
 const Card = (props) => {
-    // console.log(props.cardData);
     return (
         <div id={props.cardData.id} onClick={props.onClick} className="card">
             <img src={props.cardData.image} alt=""/>
