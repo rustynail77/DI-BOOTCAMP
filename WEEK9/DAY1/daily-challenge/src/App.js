@@ -4,11 +4,9 @@ import MovieDetails from './Components/MovieDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
         <MovieList />
-        {/* <MovieDetails /> */}
-      </header>
+        <MovieDetails />
     </div>
   );
 }

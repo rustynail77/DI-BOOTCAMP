@@ -1,15 +1,16 @@
 import {connect} from 'react-redux';
-import {handleClickFromActions} from '../actions/actions';
+import {selectedMovie} from '../redux/actions';
 
 const MovieList = (props) => {
     return (
         <>
-            <h3>MovieList:</h3>
+            <h2>Movie List:</h2>
             {
-            props.movies.map((movie, i)=>{
+            props.films.map((item, i)=>{
                 return (
-                <div key={i} id={i}>
-                    <span>{movie.title} </span><button onClick={props.handleClick}>Details</button>
+                <div key={i}>
+                    <span>{item.title} </span>
+                    <button onClick={()=>props.movieDetails(item)}>Details</button> {/*insted of the "item" we could have have sent i, which is the index of the item. in the case we need to change our payload in the reducers.js file*/}
                 </div>
                 )
                 })
@@ -20,13 +21,13 @@ const MovieList = (props) => {
 
 const mapStateToProps = (state)=>{
     return {
-        movies: state
+        films: state.movies
     }
   }
 
   const mapDispatchToProps = (dispatch) => {
     return {
-      handleClick: (e) => dispatch(handleClickFromActions(e))
+      movieDetails: (movie) => dispatch(selectedMovie(movie))
     }
 } 
 
