@@ -1,3 +1,6 @@
+import {connect} from 'react-redux';
+import {handleNames} from '../redux/actions';
+
 const FirstName = (props) => {
     return (
         <>
@@ -6,4 +9,10 @@ const FirstName = (props) => {
     )
 }
 
-export default FirstName;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        handleChange: (e) => dispatch(handleNames('SAVE_FNAME',e.target.value))
+    }
+}
+
+export default connect(null,mapDispatchToProps)(FirstName);
