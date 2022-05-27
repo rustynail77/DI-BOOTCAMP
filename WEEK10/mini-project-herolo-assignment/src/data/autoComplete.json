@@ -1,0 +1,152 @@
+[
+    {
+      "Version": 1,
+      "Key": "187423",
+      "Type": "City",
+      "Rank": 20,
+      "LocalizedName": "Budapest",
+      "Country": {
+        "ID": "HU",
+        "LocalizedName": "Hungary"
+      },
+      "AdministrativeArea": {
+        "ID": "BU",
+        "LocalizedName": "Budapest"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "191062",
+      "Type": "City",
+      "Rank": 45,
+      "LocalizedName": "Budaun",
+      "Country": {
+        "ID": "IN",
+        "LocalizedName": "India"
+      },
+      "AdministrativeArea": {
+        "ID": "UP",
+        "LocalizedName": "Uttar Pradesh"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "196609",
+      "Type": "City",
+      "Rank": 45,
+      "LocalizedName": "Budge Budge",
+      "Country": {
+        "ID": "IN",
+        "LocalizedName": "India"
+      },
+      "AdministrativeArea": {
+        "ID": "WB",
+        "LocalizedName": "West Bengal"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "14574",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Buderim",
+      "Country": {
+        "ID": "AU",
+        "LocalizedName": "Australia"
+      },
+      "AdministrativeArea": {
+        "ID": "QLD",
+        "LocalizedName": "Queensland"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "28271",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Budakoshelevo",
+      "Country": {
+        "ID": "BY",
+        "LocalizedName": "Belarus"
+      },
+      "AdministrativeArea": {
+        "ID": "HO",
+        "LocalizedName": "Gomel"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "187422",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Budaörs",
+      "Country": {
+        "ID": "HU",
+        "LocalizedName": "Hungary"
+      },
+      "AdministrativeArea": {
+        "ID": "BU",
+        "LocalizedName": "Budapest"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "3588404",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Budh Vihar",
+      "Country": {
+        "ID": "IN",
+        "LocalizedName": "India"
+      },
+      "AdministrativeArea": {
+        "ID": "DL",
+        "LocalizedName": "Delhi"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "190142",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Budhlada",
+      "Country": {
+        "ID": "IN",
+        "LocalizedName": "India"
+      },
+      "AdministrativeArea": {
+        "ID": "PB",
+        "LocalizedName": "Punjab"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "191226",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Budhana",
+      "Country": {
+        "ID": "IN",
+        "LocalizedName": "India"
+      },
+      "AdministrativeArea": {
+        "ID": "UP",
+        "LocalizedName": "Uttar Pradesh"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "312592",
+      "Type": "City",
+      "Rank": 55,
+      "LocalizedName": "Budai Township",
+      "Country": {
+        "ID": "TW",
+        "LocalizedName": "Taiwan"
+      },
+      "AdministrativeArea": {
+        "ID": "CYQ",
+        "LocalizedName": "Chiayi"
+      }
+    }
+  ]

@@ -1,0 +1,1308 @@
+{
+  "Headline": {
+    "EffectiveDate": "2022-05-24T02:00:00+02:00",
+    "EffectiveEpochDate": 1653350400,
+    "Severity": 5,
+    "Text": "Expect showers late Monday night",
+    "Category": "rain",
+    "EndDate": "2022-05-24T08:00:00+02:00",
+    "EndEpochDate": 1653372000,
+    "MobileLink": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?unit=c&lang=en-us",
+    "Link": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?unit=c&lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2022-05-22T07:00:00+02:00",
+      "EpochDate": 1653195600,
+      "Sun": {
+        "Rise": "2022-05-22T04:59:00+02:00",
+        "EpochRise": 1653188340,
+        "Set": "2022-05-22T20:22:00+02:00",
+        "EpochSet": 1653243720
+      },
+      "Moon": {
+        "Rise": "2022-05-22T01:58:00+02:00",
+        "EpochRise": 1653177480,
+        "Set": "2022-05-22T11:23:00+02:00",
+        "EpochSet": 1653211380,
+        "Phase": "Last",
+        "Age": 22
+      },
+      "Temperature": {
+        "Minimum": {
+          "Value": 11,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 22.9,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "RealFeelTemperature": {
+        "Minimum": {
+          "Value": 10.4,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Chilly"
+        },
+        "Maximum": {
+          "Value": 25.5,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "RealFeelTemperatureShade": {
+        "Minimum": {
+          "Value": 10.4,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Chilly"
+        },
+        "Maximum": {
+          "Value": 21.3,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "HoursOfSun": 8.3,
+      "DegreeDaySummary": {
+        "Heating": {
+          "Value": 1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Cooling": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "AirAndPollen": [
+        {
+          "Name": "AirQuality",
+          "Value": 0,
+          "Category": "Good",
+          "CategoryValue": 1,
+          "Type": "Ozone"
+        },
+        {
+          "Name": "Grass",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Mold",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Ragweed",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Tree",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "UVIndex",
+          "Value": 8,
+          "Category": "Very High",
+          "CategoryValue": 4
+        }
+      ],
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Partly sunny and pleasant",
+        "LongPhrase": "Pleasant with intervals of clouds and sun",
+        "PrecipitationProbability": 1,
+        "ThunderstormProbability": 0,
+        "RainProbability": 1,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 14.8,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 307,
+            "Localized": "NW",
+            "English": "NW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 33.3,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 320,
+            "Localized": "NW",
+            "English": "NW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 48,
+        "Evapotranspiration": {
+          "Value": 4.3,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 4307.4,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Night": {
+        "Icon": 36,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Partly cloudy",
+        "LongPhrase": "Partly cloudy",
+        "PrecipitationProbability": 1,
+        "ThunderstormProbability": 0,
+        "RainProbability": 1,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 9.3,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 4,
+            "Localized": "N",
+            "English": "N"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 18.5,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 60,
+            "Localized": "ENE",
+            "English": "ENE"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 46,
+        "Evapotranspiration": {
+          "Value": 0.5,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 788.2,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=1&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=1&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2022-05-23T07:00:00+02:00",
+      "EpochDate": 1653282000,
+      "Sun": {
+        "Rise": "2022-05-23T04:58:00+02:00",
+        "EpochRise": 1653274680,
+        "Set": "2022-05-23T20:23:00+02:00",
+        "EpochSet": 1653330180
+      },
+      "Moon": {
+        "Rise": "2022-05-23T02:22:00+02:00",
+        "EpochRise": 1653265320,
+        "Set": "2022-05-23T12:40:00+02:00",
+        "EpochSet": 1653302400,
+        "Phase": "WaningCrescent",
+        "Age": 23
+      },
+      "Temperature": {
+        "Minimum": {
+          "Value": 14.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 23.1,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "RealFeelTemperature": {
+        "Minimum": {
+          "Value": 12.2,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 26.9,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Very Warm"
+        }
+      },
+      "RealFeelTemperatureShade": {
+        "Minimum": {
+          "Value": 12.2,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 21.7,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "HoursOfSun": 7.2,
+      "DegreeDaySummary": {
+        "Heating": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Cooling": {
+          "Value": 1,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "AirAndPollen": [
+        {
+          "Name": "AirQuality",
+          "Value": 0,
+          "Category": "Good",
+          "CategoryValue": 1,
+          "Type": "Ozone"
+        },
+        {
+          "Name": "Grass",
+          "Value": 8,
+          "Category": "Moderate",
+          "CategoryValue": 2
+        },
+        {
+          "Name": "Mold",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Ragweed",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Tree",
+          "Value": 2,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "UVIndex",
+          "Value": 8,
+          "Category": "Very High",
+          "CategoryValue": 4
+        }
+      ],
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Partly sunny",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Pleasant with some sun",
+        "LongPhrase": "Pleasant with some sun",
+        "PrecipitationProbability": 1,
+        "ThunderstormProbability": 0,
+        "RainProbability": 1,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 9.3,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 213,
+            "Localized": "SSW",
+            "English": "SSW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 22.2,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 236,
+            "Localized": "SW",
+            "English": "SW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 45,
+        "Evapotranspiration": {
+          "Value": 4.1,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 4383.8,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate",
+        "ShortPhrase": "Mostly cloudy, a shower late",
+        "LongPhrase": "Mostly cloudy with a shower in places late",
+        "PrecipitationProbability": 65,
+        "ThunderstormProbability": 13,
+        "RainProbability": 65,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 11.1,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 120,
+            "Localized": "ESE",
+            "English": "ESE"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 31.5,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 130,
+            "Localized": "SE",
+            "English": "SE"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 1.3,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 1.3,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0.5,
+        "HoursOfRain": 0.5,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 93,
+        "Evapotranspiration": {
+          "Value": 1,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 401.7,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=2&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=2&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2022-05-24T07:00:00+02:00",
+      "EpochDate": 1653368400,
+      "Sun": {
+        "Rise": "2022-05-24T04:57:00+02:00",
+        "EpochRise": 1653361020,
+        "Set": "2022-05-24T20:24:00+02:00",
+        "EpochSet": 1653416640
+      },
+      "Moon": {
+        "Rise": "2022-05-24T02:43:00+02:00",
+        "EpochRise": 1653352980,
+        "Set": "2022-05-24T13:55:00+02:00",
+        "EpochSet": 1653393300,
+        "Phase": "WaningCrescent",
+        "Age": 24
+      },
+      "Temperature": {
+        "Minimum": {
+          "Value": 13.3,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 22.6,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "RealFeelTemperature": {
+        "Minimum": {
+          "Value": 11.1,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 21.9,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "RealFeelTemperatureShade": {
+        "Minimum": {
+          "Value": 11.1,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 20.8,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "HoursOfSun": 1.1,
+      "DegreeDaySummary": {
+        "Heating": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Cooling": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "AirAndPollen": [
+        {
+          "Name": "AirQuality",
+          "Value": 0,
+          "Category": "Good",
+          "CategoryValue": 1,
+          "Type": "Ozone"
+        },
+        {
+          "Name": "Grass",
+          "Value": 11,
+          "Category": "Moderate",
+          "CategoryValue": 2
+        },
+        {
+          "Name": "Mold",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Ragweed",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Tree",
+          "Value": 2,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "UVIndex",
+          "Value": 3,
+          "Category": "Moderate",
+          "CategoryValue": 2
+        }
+      ],
+      "Day": {
+        "Icon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light",
+        "ShortPhrase": "A t-storm around in the p.m.",
+        "LongPhrase": "Cloudy with a thunderstorm in spots in the afternoon",
+        "PrecipitationProbability": 40,
+        "ThunderstormProbability": 24,
+        "RainProbability": 40,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 14.8,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 70,
+            "Localized": "ENE",
+            "English": "ENE"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 37,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 73,
+            "Localized": "ENE",
+            "English": "ENE"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 1,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 1,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0.5,
+        "HoursOfRain": 0.5,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 95,
+        "Evapotranspiration": {
+          "Value": 2.5,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 2148.4,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Night": {
+        "Icon": 42,
+        "IconPhrase": "Mostly cloudy w/ t-storms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate",
+        "ShortPhrase": "Some clouds, a t-storm late",
+        "LongPhrase": "Partly to mostly cloudy with a thunderstorm late",
+        "PrecipitationProbability": 56,
+        "ThunderstormProbability": 34,
+        "RainProbability": 56,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 11.1,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 55,
+            "Localized": "NE",
+            "English": "NE"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 29.6,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 61,
+            "Localized": "ENE",
+            "English": "ENE"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 1.8,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 1.8,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 1,
+        "HoursOfRain": 1,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 97,
+        "Evapotranspiration": {
+          "Value": 0.5,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 377.4,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=3&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=3&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2022-05-25T07:00:00+02:00",
+      "EpochDate": 1653454800,
+      "Sun": {
+        "Rise": "2022-05-25T04:56:00+02:00",
+        "EpochRise": 1653447360,
+        "Set": "2022-05-25T20:26:00+02:00",
+        "EpochSet": 1653503160
+      },
+      "Moon": {
+        "Rise": "2022-05-25T03:01:00+02:00",
+        "EpochRise": 1653440460,
+        "Set": "2022-05-25T15:07:00+02:00",
+        "EpochSet": 1653484020,
+        "Phase": "WaningCrescent",
+        "Age": 25
+      },
+      "Temperature": {
+        "Minimum": {
+          "Value": 14,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 27.5,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "RealFeelTemperature": {
+        "Minimum": {
+          "Value": 12.6,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 29.7,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Very Warm"
+        }
+      },
+      "RealFeelTemperatureShade": {
+        "Minimum": {
+          "Value": 12.6,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 26.4,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "HoursOfSun": 5.7,
+      "DegreeDaySummary": {
+        "Heating": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Cooling": {
+          "Value": 3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "AirAndPollen": [
+        {
+          "Name": "AirQuality",
+          "Value": 0,
+          "Category": "Good",
+          "CategoryValue": 1,
+          "Type": "Ozone"
+        },
+        {
+          "Name": "Grass",
+          "Value": 7,
+          "Category": "Moderate",
+          "CategoryValue": 2
+        },
+        {
+          "Name": "Mold",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Ragweed",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Tree",
+          "Value": 140,
+          "Category": "High",
+          "CategoryValue": 3
+        },
+        {
+          "Name": "UVIndex",
+          "Value": 7,
+          "Category": "High",
+          "CategoryValue": 3
+        }
+      ],
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light",
+        "ShortPhrase": "A t-storm around in the p.m.",
+        "LongPhrase": "Mainly cloudy and warmer; a thunderstorm in spots in the afternoon",
+        "PrecipitationProbability": 40,
+        "ThunderstormProbability": 24,
+        "RainProbability": 40,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 13,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 212,
+            "Localized": "SSW",
+            "English": "SSW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 38.9,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 291,
+            "Localized": "WNW",
+            "English": "WNW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 1,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 1,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0.5,
+        "HoursOfRain": 0.5,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 77,
+        "Evapotranspiration": {
+          "Value": 3.3,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 2879,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Patchy clouds",
+        "LongPhrase": "Patchy clouds",
+        "PrecipitationProbability": 13,
+        "ThunderstormProbability": 1,
+        "RainProbability": 13,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 11.1,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 302,
+            "Localized": "WNW",
+            "English": "WNW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 25.9,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 296,
+            "Localized": "WNW",
+            "English": "WNW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 65,
+        "Evapotranspiration": {
+          "Value": 0.5,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 931,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=4&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=4&unit=c&lang=en-us"
+    },
+    {
+      "Date": "2022-05-26T07:00:00+02:00",
+      "EpochDate": 1653541200,
+      "Sun": {
+        "Rise": "2022-05-26T04:55:00+02:00",
+        "EpochRise": 1653533700,
+        "Set": "2022-05-26T20:27:00+02:00",
+        "EpochSet": 1653589620
+      },
+      "Moon": {
+        "Rise": "2022-05-26T03:17:00+02:00",
+        "EpochRise": 1653527820,
+        "Set": "2022-05-26T16:16:00+02:00",
+        "EpochSet": 1653574560,
+        "Phase": "WaningCrescent",
+        "Age": 26
+      },
+      "Temperature": {
+        "Minimum": {
+          "Value": 15.6,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 25.2,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "RealFeelTemperature": {
+        "Minimum": {
+          "Value": 15.5,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 27.4,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Very Warm"
+        }
+      },
+      "RealFeelTemperatureShade": {
+        "Minimum": {
+          "Value": 15.5,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Cool"
+        },
+        "Maximum": {
+          "Value": 23.5,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Pleasant"
+        }
+      },
+      "HoursOfSun": 9,
+      "DegreeDaySummary": {
+        "Heating": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Cooling": {
+          "Value": 2,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "AirAndPollen": [
+        {
+          "Name": "AirQuality",
+          "Value": 0,
+          "Category": "Good",
+          "CategoryValue": 1,
+          "Type": "Ozone"
+        },
+        {
+          "Name": "Grass",
+          "Value": 6,
+          "Category": "Moderate",
+          "CategoryValue": 2
+        },
+        {
+          "Name": "Mold",
+          "Value": 300,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Ragweed",
+          "Value": 0,
+          "Category": "Low",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Tree",
+          "Value": 298,
+          "Category": "High",
+          "CategoryValue": 3
+        },
+        {
+          "Name": "UVIndex",
+          "Value": 8,
+          "Category": "Very High",
+          "CategoryValue": 4
+        }
+      ],
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Partly sunny and pleasant",
+        "LongPhrase": "Nice with intervals of clouds and sunshine",
+        "PrecipitationProbability": 5,
+        "ThunderstormProbability": 0,
+        "RainProbability": 5,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 14.8,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 309,
+            "Localized": "NW",
+            "English": "NW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 37,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 304,
+            "Localized": "NW",
+            "English": "NW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 46,
+        "Evapotranspiration": {
+          "Value": 4.6,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 4096.1,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Patchy clouds",
+        "LongPhrase": "Patchy clouds",
+        "PrecipitationProbability": 2,
+        "ThunderstormProbability": 0,
+        "RainProbability": 2,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 7.4,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 338,
+            "Localized": "NNW",
+            "English": "NNW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 22.2,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 313,
+            "Localized": "NW",
+            "English": "NW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 41,
+        "Evapotranspiration": {
+          "Value": 0.8,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 894,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=5&unit=c&lang=en-us",
+      "Link": "http://www.accuweather.com/en/hu/budapest/187423/daily-weather-forecast/187423?day=5&unit=c&lang=en-us"
+    }
+  ]
+}

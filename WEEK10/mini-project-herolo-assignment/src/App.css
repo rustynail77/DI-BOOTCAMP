@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  color: white;
+  margin-left: 10%;
+  
+}
+
+.cardClick {
+  cursor: pointer;
+}
+
+.weathIcon {
+  max-width: 10%;
+}
+
+.weathIconFiveDays {
+  max-width: 30%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  background-color: rgb(106, 106, 255);
+  list-style-type: none;
+}
+
+nav > a > h1 {
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.nav-links > li > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#citySelector {
+  font-size:16px;
+  color: white;
+  background-color: gray;
+  position: absolute;
+  left: 43%;
+  min-width: 12%;
+  cursor: pointer;
+}
+
+#citySelector > div > div{
+  padding: 2px 30px 2px 30px;
+  position: relative;
+}
+
+.fiveDaysContainer {
+  display: flex;
+  justify-content:center;
+}
+
+.fiveDayCard {
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 30px;
+}
+
+.favCards {
+  border: 1px solid yellow;
+  min-width:15%;
+  margin: 30px;
+  border-radius: 15px;
+  min-height: 150px;
+  border-bottom:medium;
+  display: grid;
+}
+
+#main-container {
+  background-color: black;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.innerContainer {
+  width: 100vw;
+  color: gray;
+  padding-top: 30px;
+  display: flex;
+  justify-content:center;
+}
+.fav-btn {
+  margin-top: 30px;
+  max-height: 30px;
+  margin-left: 50%;;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 5vmin);
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
