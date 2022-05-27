@@ -10,20 +10,15 @@ const CurrConsCard = (props) => {
 
     useEffect(()=>{
         const func = async () => {
-            // console.log('props.favCity =', props.favCity);
             const id = props.favCity.id==null ? srchCity : props.favCity.id;
-            // console.log('props.cityId =',props.favCity, id, srchCity);
             const currCons = await fetchCurrentConditions(id);
-            // console.log('srchCity,currCons =',srchCity, currCons);
             const data = await currCons.json();
-            // console.log(data);
             setCurrent(data);
         }
         func();
     },[srchCity])
 
     const handleOnClick = (favCity) => {
-        console.log('favCity =',favCity);
         setSrchCity(favCity.id);
         setCityName(favCity.name);
         navigate("/");
@@ -34,7 +29,6 @@ const CurrConsCard = (props) => {
             {
                
                current ? current.map((item,i)=>{
-                    // console.log('item=',item);
                     return(
                     <div onClick={()=>handleOnClick(props.favCity)} key={i} className="cardClick">
                         <div className="favCards">

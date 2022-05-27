@@ -9,11 +9,9 @@ const Home = (props) => {
     const {setCityList, cityList} = useContext(AppContext);
 
     const handleChange = async (e) => {
-        if (e.target.value!='') {  // maybe have a timeout before fetching
-            console.log(e.target.value);
+        if (e.target.value!=='') { 
             const cityOptions = await fetchAutoCompleteApi(e.target.value);
             let data = await cityOptions.json();
-            console.log('cityOptions =',data);
             setCityList(data);
         } else {setCityList([])} 
     }

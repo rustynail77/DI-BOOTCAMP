@@ -14,17 +14,13 @@ const FiveDaysForecast = (props) => {
     
     useEffect(()=>{
         const func = async () => {
-            console.log('entered useEffect in FiveDays');
             const fiveDays = await fetchFiveDaysForecast(true, srchCity);
             const data = await fiveDays.json();
-            console.log('fiveDaysData =',fiveDays,data);
             setCurrFive(data);
         }
         func();
     },[srchCity])
     
-    console.log('currFive, srchCity =', currFive, srchCity);
-
     return (
         <div className="fiveDaysContainer">
         {

@@ -12,7 +12,6 @@ const Favorites = (props) => {
         const func = async () => {
             const currCons = await fetchCurrentConditions(currCity);
             const data = await currCons.json();
-            console.log('currCons data =',data);
             setCityCurrCons(data);
         }
         func();
@@ -23,23 +22,11 @@ const Favorites = (props) => {
             <h2>Favorite cities</h2>
             <div className="innerContainer">
             {
-                cityCurrCons ? 
-                favCities.map((city,i)=>{
-                    // // let cityCurrCons = fetchCurrentConditions(city.id)[0];
-                    // setCurrCity(city.id);
-                    // console.log('fav citycurrcons =',cityCurrCons);
-                    // return (
-                    //     <div className="favCards" key={i}>
-                    //         <h3>{city.name}</h3>
-                    //         <div>{cityCurrCons.WeatherText}</div>
-                    //         <div>{cityCurrCons.Temperature.Metric.Value}°{cityCurrCons.Temperature.Metric.Unit}</div>
-                    //     </div>
-                    // )
+                cityCurrCons ? favCities.map((city,i)=>{
                     return (
                         <CurrConsCard favCity={city} key={i}/>
                     )
-                }) 
-                : null
+                }) : null
             }
             </div>
         </div>

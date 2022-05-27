@@ -8,7 +8,7 @@ const InnerBar = (props) => {
 
     const handleClick = () => {
         let arr=[...favCities];
-        favCities.filter(city=>city.name==cityName).length>0 ? 
+        favCities.filter(city=>city.name===cityName).length>0 ? 
             arr.splice(arr.indexOf(cityName), 1) : 
             (favCities.length>4) ? 
                 alert("You cannot add more than 5 cities to favorites") :
@@ -17,13 +17,9 @@ const InnerBar = (props) => {
     }
     useEffect(()=>{
         const func = async () => {
-            // const id = props.cityId==null ? srchCity : props.cityId;
             const id = srchCity;
-            // console.log('props.cityId =',props.cityId, id, srchCity);
             const currCons = await fetchCurrentConditions(id);
-            // console.log('srchCity,currCons =',srchCity, currCons);
             const data = await currCons.json();
-            // console.log(data);
             setCurrent(data);
         }
         func();
@@ -32,9 +28,7 @@ const InnerBar = (props) => {
     return (
         <div id='sm-city-data'>
             {
-               
                current ? current.map((item,i)=>{
-                    // console.log('item=',item);
                     return(
                     <div key={i}>
                         <div className="innerContainer">
@@ -46,7 +40,7 @@ const InnerBar = (props) => {
                             <button className="fav-btn"
                                     onClick={handleClick}>
                                         {
-                                            (favCities.filter(city=>city.name==cityName).length>0?'Remove from':'Add to')
+                                            (favCities.filter(city=>city.name===cityName).length>0?'Remove from':'Add to')
                                         } Favorites
                             </button>
                         </div>

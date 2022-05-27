@@ -7,11 +7,10 @@ const fiveDaysForecastApi = 'http://dataservice.accuweather.com/forecasts/v1/dai
 const currentConditionsApi = 'http://dataservice.accuweather.com/currentconditions/v1/';
 
 const myAPIKey ='nQTuksUag3Nu1GJEvezM4c8N4L7fV7cD';
-// const myAPIKey ='1JqqEZNWCnGJBmfFW0zudh0aHUivCdSJ';
+// const myAPIKey ='1JqqEZNWCnGJBmfFW0zudh0aHUivCdSJ'; //ziv's api
 // const myAPIKey ='HPQRA6OBlHCaCMLFKQiFVYFNeIkdftoI';
 
 export const fetchCurrentConditions = (locationApi) => {
-    // console.log(`${currentConditionsApi}${locationApi}?apikey=${myAPIKey}&language=en-us&details=true`);
     return fetch(`${currentConditionsApi}${locationApi}?apikey=${myAPIKey}&language=en-us&details=true`)
 }
 
