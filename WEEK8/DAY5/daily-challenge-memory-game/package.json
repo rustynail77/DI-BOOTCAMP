@@ -1,6 +1,8 @@
 {
-  "name": "daily-challenge-memory-game",
-  "version": "0.1.0",
+  "name": "liron-portfolio",
+  "homepage": "http://memory-game.rustynail77.com",
+  "version": "1.0.0",
+  "description": "Memory Game",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

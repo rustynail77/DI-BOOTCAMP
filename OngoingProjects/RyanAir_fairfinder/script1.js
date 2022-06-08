@@ -131,6 +131,13 @@ async function mainClick (event) {
 
 }
 
+const routes = async () => {
+    let data = await fetch('https://services-api.ryanair.com/locate/3/routes');
+    let result = await (data.json());
+    // console.log('result =', result);
+}
+routes();
+
 const defaultFare = 200;
 const defaultTripLength = 5;
 const genAPI = 'https://services-api.ryanair.com/farfnd/3/roundTripFares?';

@@ -1,0 +1,126 @@
+h1 {
+  text-align: center;
+  background-color: rgb(57, 189, 255);
+  padding: 1%;
+}
+
+#myForm {
+  margin: 2%;
+  /* text-align: center; */
+  font-family: 'Abril Fatface', cursive;
+}
+
+#myForm > input {
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+.loading {
+  color:#fff;
+  align-items: center;
+  text-align: center;
+}
+
+.dontShow {
+  display: none;
+}
+
+#info {
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  min-height: 55vh;
+  
+  /* font-family: 'Square Peg', cursive; */
+  font-family: 'Varela Round', sans-serif;
+}
+
+.card {
+  border: 2px solid grey;
+  background-color: rgb(46, 134, 248);
+  color: white;
+  margin: 1%;
+  padding: 1%;
+  min-width: max-content;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.priceTag {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#myButt {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#myButt:hover {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+transform: translate3d(0, 2px, 0);
+}
+
+#myButt:focus {
+box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.autocomplete {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: calc(300px + 1rem);
+}
+
+.autocomplete:hover {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
